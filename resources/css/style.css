@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html {
 	font-family: Helvetica;
@@ -86,3 +87,139 @@ header img {
 	flex-grow: 1;
 }
 
+=======
+
+html {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	height: 69px;
+	background-color: black;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	align-items: center;
+	z-index: 1;
+}
+
+
+.flex_container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.flex_container img {
+	padding-left:10px;
+}
+
+
+nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+
+header a {
+	color: seashell;
+}
+
+nav span {
+	display: flex;
+	position: inline-block;
+	padding: 20px;
+	flex-shrink: 1;
+	flex-wrap: nowrap;
+	
+}
+
+header img {
+	height: 50px;
+}
+
+.main {
+	display: flex;
+	z-index: 0;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+	
+#mission {
+	display: flex;
+	height: 700px;
+	width: 1200px;
+	margin-top: 69px;
+	align-items: center;
+	background-image: url("../images/img-mission-background.jpg");
+}
+	
+#mission .mission_text {
+	background-color: black;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#featured {
+	display: flex;
+	width: 1000px;
+	flex-direction: column;
+}
+
+.image_with_label {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image_with_label img {
+	height: 200px;
+	width: 300px;
+}
+
+.image_with_label div {
+	padding: 15px;
+}
+
+.image_with_label p {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Featured tea section complete
