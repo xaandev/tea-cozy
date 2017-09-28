@@ -128,7 +128,58 @@ header img {
 	margin-top: 10px;
 }
 
+#locations {
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	background-image: url("../images/img-locations-background.jpg");
+	width: 1200px;
+	height: 500px;
+	margin-top: 48px;
+}
 
+.locations_background {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.locations_header h2 {
+	margin: 0px;
+}
+
+.locations_boxes {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	opacity: 1;
+}
+
+
+.locations_text {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 20px;
+	background-color: black;
+	width: 300px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	
+}
+
+.contact h2 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.contact h5 {
+	margin-top: 0px;
+	margin-bottom: 34px;
+}
 
 
 
